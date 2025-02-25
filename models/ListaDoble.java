@@ -2,7 +2,7 @@ package models;
 
 import java.util.LinkedList;
 
-public class ListaDoble<T> {
+public class ListaDoble<T> implements List<T>{
     private LinkedList<T> elementos;
 
     public ListaDoble() {

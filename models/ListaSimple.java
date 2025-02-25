@@ -2,7 +2,7 @@ package models;
 
 import java.util.ArrayList;
 
-public class ListaSimple<T> {
+public class ListaSimple<T> implements List<T>{
     private ArrayList<T> elementos;
 
     public ListaSimple() {
